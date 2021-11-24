@@ -31,7 +31,7 @@ $( document ).ready( function() {
     Filaous_CounterUp();
     Filaous_Carousel();
     Filaous_BgImgPath();
-    Filaous_MGFPopup();
+    // Filaous_MGFPopup();
     Filaous_WowJs();
     Filaous_ScrollIt();
     Filaous_ContactForm();
@@ -335,30 +335,30 @@ function Filaous_BgImgPath(){
 /* -------------------------------------------------------------------
  * 06.Magnific Popup
 ------------------------------------------------------------------- */
-function Filaous_MGFPopup(){
-    "use-scrict";
+// function Filaous_MGFPopup(){
+    // "use-scrict";
 
-    // Variables
-    let youtubePopup = $( '.about-video-btn' );
-    let designProcessPopup = $( '.design-process-video-btn' );
+    // // Variables
+    // let youtubePopup = $( '.about-video-btn' );
+    // let designProcessPopup = $( '.design-process-video-btn' );
 
-    youtubePopup.magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
-    designProcessPopup.magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
-}
+    // youtubePopup.magnificPopup({
+    //     disableOn: 700,
+    //     type: 'iframe',
+    //     mainClass: 'mfp-fade',
+    //     removalDelay: 160,
+    //     preloader: false,
+    //     fixedContentPos: false
+    // });
+    // designProcessPopup.magnificPopup({
+    //     disableOn: 700,
+    //     type: 'iframe',
+    //     mainClass: 'mfp-fade',
+    //     removalDelay: 160,
+    //     preloader: false,
+    //     fixedContentPos: false
+    // });
+// }
 
 /* -------------------------------------------------------------------
  * 07.Wow Js
