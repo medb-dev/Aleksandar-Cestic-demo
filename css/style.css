@@ -3255,6 +3255,7 @@ body[style], header[style] {
 }
 
 .portfolio-grid-img img {
+  /* width: 400px; */
   border-radius: 30px;
 }
 
@@ -5456,5 +5457,10 @@ body.rtl-mode .leave-comment-wrapper .comment-form-group textarea.form-control {
 /*# sourceMappingURL=style.css.map */
 
 /* Last Updates */
-/* .last-col{;
+/* .project-img{
+  background: url("../img/portfolio/portfolio-img-1.jpg") no-repeat center center;
+  
+  height: auto;
+  padding: 0px;
+  border-radius: 30px;
 } */
